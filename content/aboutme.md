@@ -1,7 +1,7 @@
 ---
 title: "about me"
 date: 2018-11-11T14:04:19+01:00
-draft: true
+draft: false
 weight: 1
 ---
 {{< figure class="image main" src="/images/pic03.jpg" >}} {{< figure class="image main" src="/images/pic03.jpg" >}}

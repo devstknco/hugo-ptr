@@ -36,12 +36,245 @@
             <nav>
               <ul>
                 
+                  <li><a href="#aboutme">about me</a></li>
+                
+                  <li><a href="#literature">Literature</a></li>
+                
+                  <li><a href="#factualbook">Factualbook</a></li>
+                
+                  <li><a href="#index">$$</a></li>
+                
+                  <li><a href="#research">Research</a></li>
+                
               </ul>
             </nav>
           </header>
 
         
           <div id="main">
+            
+              <article id="aboutme">
+  <h1>about me</h1>
+  <p><figure class="image main">
+    <img src="https://devstknco.github.io/hugo-ptr/images/pic03.jpg"/> 
+</figure>
+ <figure class="image main">
+    <img src="https://devstknco.github.io/hugo-ptr/images/pic03.jpg"/> 
+</figure>
+
+This is about me. Please find out more on the other pages.</p>
+
+</article>
+
+            
+              <article id="literature">
+  <h1>Literature</h1>
+  
+</article>
+
+            
+              <article id="factualbook">
+  <h1>Factualbook</h1>
+  
+</article>
+
+            
+              <article id="index">
+  <h1>$$</h1>
+  <style>
+img {
+  height: 100px;
+  width: 95px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 0px;
+  background-color: #2196F3;
+  padding: 0px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 3px 0;
+}
+
+ 
+#myImg {
+    border-radius: 0px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+ 
+.modal {
+    display: none;  
+    position: absolute;  
+    z-index: 1;  
+    padding-top: 100px;  
+    left: 10%;
+    top: 0%;
+    width: 80%;  
+    height: 100%;  
+    overflow: auto;  
+    background-color: rgb(0,0,90);  
+    background-color: rgba(0,0,175,0.9);  
+}
+
+ 
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    height: 250px;
+}
+
+ 
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 50px;
+}
+
+ 
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+ 
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ 
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+</style>
+<div class="grid-container">
+  <div class="grid-item">
+    <img src="https://devstknco.github.io/hugo-ptr//images/pic01.jpg" id="myImg" alt="alt1">
+  </div>
+  <div class="grid-item">
+    <img src="https://devstknco.github.io/hugo-ptr//images/pic01.jpg" class="img-responsive" alt="alt1">
+  </div>
+  <div class="grid-item">
+    <img src="https://devstknco.github.io/hugo-ptr//images/pic01.jpg" class="img-responsive" alt="alt1">
+  </div>
+  <div class="grid-item">
+    <img src="https://devstknco.github.io/hugo-ptr//images/pic01.jpg" class="img-responsive" alt="alt1">
+  </div>
+  <div class="grid-item">
+    <img src="https://devstknco.github.io/hugo-ptr//images/pic01.jpg" class="img-responsive" alt="alt1">
+  </div>
+  <div class="grid-item">
+    <img src="https://devstknco.github.io/hugo-ptr//images/pic01.jpg" class="img-responsive" alt="alt1">
+  </div>
+  <div class="grid-item">
+    <img src="https://devstknco.github.io/hugo-ptr//images/pic01.jpg" class="img-responsive" alt="alt1">
+  </div>
+  <div class="grid-item">
+    <img src="https://devstknco.github.io/hugo-ptr//images/pic01.jpg" class="img-responsive" alt="alt1">
+  </div>
+  <div class="grid-item">
+    <img src="https://devstknco.github.io/hugo-ptr//images/pic01.jpg" class="img-responsive" alt="alt1">
+  </div>
+  <div class="grid-item">
+    <img src="https://devstknco.github.io/hugo-ptr//images/pic01.jpg" class="img-responsive" alt="alt1">
+  </div>
+  <div class="grid-item">
+    <img src="https://devstknco.github.io/hugo-ptr//images/pic01.jpg" class="img-responsive" alt="alt1">
+  </div>
+  <div class="grid-item">
+    <img src="https://devstknco.github.io/hugo-ptr//images/pic01.jpg" class="img-responsive" alt="alt1">
+  </div>
+  <div class="grid-item">
+    <img src="https://devstknco.github.io/hugo-ptr//images/pic01.jpg" class="img-responsive" alt="alt1">
+  </div>
+  <div class="grid-item">
+    <img src="https://devstknco.github.io/hugo-ptr//images/pic01.jpg" class="img-responsive" alt="alt1">
+  </div>
+  <div class="grid-item">
+    <img src="https://devstknco.github.io/hugo-ptr//images/pic01.jpg" class="img-responsive" alt="alt1">
+  </div>
+</div>
+
+
+
+<div id="myModal" class="modal">
+
+  
+  <span class="close">&times;</span>
+
+  
+  <img class="modal-content" id="img01">
+
+  
+  <div id="caption"></div>
+</div>
+
+<script>
+
+var modal = document.getElementById('myModal');
+
+
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+
+</article>
+
+            
+              <article id="research">
+  <h1>Research</h1>
+  
+</article>
+
             
           </div>
 
