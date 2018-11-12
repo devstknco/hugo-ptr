@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://example.org/sitemap.xml
+Sitemap: https://devstknco.github.io/hugo-ptr//sitemap.xml
